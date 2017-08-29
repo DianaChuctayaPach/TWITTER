@@ -1,0 +1,40 @@
+*{
+	outline: 1px solid red;
+}
+#caja-padre{
+    background-color: green; 
+	width: 300px;
+	height: 500px;
+
+}
+#caja-blanca{
+	background-color: #D8E6E7;
+	width:300px;
+	height: 200px;
+	border-radius: 10px;
+
+}
+  .contenedor{
+  	background-color:  blue;
+  	padding-top: 40px;
+  	width: 300px;
+  	border-radius: 10px;
+  }  
+.oso{
+	width: 80px;
+	height: 80px;
+	border-radius: 20px;
+	position: flex;
+	bottom: 200px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+ .nombre{
+	color: black;
+	text-decoration:none;
+}
+.mi-mail{
+	text-decoration:none;
+	color: #90A7A9;
+}
+ 
+ 

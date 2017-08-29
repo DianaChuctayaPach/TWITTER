@@ -1,0 +1,39 @@
+*{
+   
+}
+body{
+    background-color: #C0E0F4;
+}
+li{
+    list-style: none;
+}
+header{
+    background-color: rgba(18, 125, 152, 0.74);
+}
+#icono{
+    color: #657786;
+    font-size: 20px;
+}
+.text_ico{
+    color: #657786;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight:800;
+    text-align: justify;
+
+}
+#twitter{
+    font-size: 40px;
+    margin: 20px;
+    /* top: 10px; */
+
+}
+.lista{
+    /* float: left; */
+    clear: both;
+    margin: 5px;
+}
+.twitter{
+    float: left;
+    margin: 3px;
+}

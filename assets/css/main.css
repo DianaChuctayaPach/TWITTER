@@ -1,48 +1,399 @@
 *{
 	  /* outline: 1px solid black;  */ 
+    font-family: 'Varela Round', sans-serif;
+    /* outline: 1px solid coral; */
 }
+body{
+    background-color: #C0E0F4;
+    padding: 0;
+    margin:0;
+    top: 0;
+}
+li{
+    list-style: none;
+}
+
+header{
+    background-color: rgba(18, 125, 152, 0.74);
+    background: white;
+    /* background: transparent; */
+    margin-top: 0;
+    /* padding-top: 4px; */
+    /* padding: 4px; */
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    min-height: 46px;
+
+}
+
+#nav{
+    font-size: 17px;
+	color: #657786;
+	position: relative;
+}
+#nav:hover{
+    color: #0D98ED;
+    font-size: 19px;
+    /* text-decoration:underline;  subrrayado pero muy delgado*/
+    border-bottom: 3px solid #0D98ED; 
+    margin-bottom: 0;
+
+}
+.text_ico{
+    color: #657786;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight:800; /*negrita*/
+    text-align: justify;
+
+}
+#twitter{
+    font-size: 40px;
+    margin: 20px;
+    margin-top: 5px;
+    font-size: 25px;
+    /* top: 10px; */
+
+}
+.lista1{
+    display: inline-block;
+    margin-top: 0px !important;
+    margin-left: 40px;
+}
+.lista{
+    /* float: left; */
+    display: inline-block;
+    /* clear: both; */
+    /* margin: 5px; */
+    margin-left: 20px;
+}
+.twitter{
+    display: inline-block;
+    /* margin: 3px; */
+    margin-left: 200px;
+
+}
+#botontwitter{
+    background: #1DA1F2;
+    color: white;
+    padding: 5px;
+    /* padding-right: 20px; */
+    border-radius: 30px;
+    width: 120px;
+    height: 38px;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    /* height: 20px; */
+    text-align: center;
+    font-weight:500; /*negrita*/
+	margin-right: 50px;
+	margin-top: 3px;
+	border: 2px solid #41ABED;
+	/* position: relative; */
+   
+}
+#botontwitter:hover{
+    background-color: #0D98ED;
+    border: 2px solid #0D98ED;
+}
+.texttwitter{
+    float: right;
+}
+#search{
+	/* float: right; */
+	position: absolute;
+	margin-left: 200px;
+	top: 3px;
+}
+input[type=text] {
+    width: 180px;
+    /* box-sizing: border-box; */
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 12px;
+    background-color:#F5F8FA;
+    /* background-image: url(../img/searchicon.ico); */
+    /* background-position: 10px 10px;  */
+    /* background-repeat: no-repeat; */
+    padding: 10px  ;
+    color:#657786;
+    /* font-weight:700; negrita */
+    /* -webkit-transition: width 0.4s ease-in-out; */
+    /* transition: width 0.4s ease-in-out; */
+}
+
+input[type=text]:focus {
+    /* width: 10%; */
+    border: 2px solid #0D98ED;
+}
+.input{
+    /* margin-bottom: 5px; */
+}
+                
+            /*  Perfil */
+
+#cajaperfil{
+    background: white;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin-left: 50px;
+    top: 35%;
+    z-index: 1;
+
+
+}
+#Perfil{
+    float: left;
+    /* background: url(../img/portada.jpg); */
+    /* overflow: auto; */
+    background: white;
+    width: 300px;
+    height: 220px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+
+}
+#portada{
+    width: 300px;
+    height: 110px;
+}
+#foto{
+ position: absolute;
+ left: 10%;
+ top: 30%;
+
+}
+#imgperfil{
+    border-radius: 10px;
+    border: 3px solid white;
+    z-index: 4;
+
+}
+#name{
+    width: 150px;
+    color: #14171A;
+    font-weight:700; 
+    position: absolute;
+    left: 100px;
+    top: 60%;
+}
+#cuenta{
+    width: 150px;
+    color: #99A5AF;
+    /* font-weight:700;  */
+    position: absolute;
+    left: 100px;
+    top: 80%;
+}
+#cuenta:hover{
+    /* border-bottom:1px solid #99A5AF; */
+}
+#Tweets{
+    clear: none;
+    color: #14171A;
+    font-weight:700;
+    top: 110%;
+    position: absolute; 
+}
+#Seguidores{
+    /* clear: none; */
+    color: #14171A;
+    font-weight:700;
+    top: 110%;
+    left: 90%;
+    position: absolute;
+
+}
+#Siguiendo{
+    /* clear: none; */
+    color: #14171A;
+    font-weight:700;
+    top: 110%;
+    left: 210%;
+    position: absolute;
+}
+[id*="num-"]{
+    /* display: inline-block; */
+    color:#0D98ED;
+    position: absolute;
+    font-size: 25px;
+    top: 120px;
+    font-weight: 600;
+    margin-left: 0px;
+
+}
+#num-SI{
+    margin-left: 110%;
+}
+#num-SE{
+    margin-left: 220%;
+}
+#Tendencias{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    top: 320px;
+    left: 40px;
+    margin: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+#titleTendencia{
+    color: black;
+    font-size: 20px;
+    /* top: 5px;
+    left: 5px; */
+    margin: 10px;
+    padding: 5px;
+    font-weight: 600;
+    position: absolute;
+
+}
+#cambiar{
+    color: #0D98ED;
+    font-size: 15px;
+    font-weight: 100;
+
+
+}
+[id*="twitt-"]{
+    padding-top: 5px;
+    /* padding-bottom: 10px; */
+    
+
+}
+#twitt-1{
+    color: #0D98ED;
+    font-weight: 600;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    /* margin-top: 20px; */
+}
+#seguidoresTendencia1{
+    color: #657786;
+}
+#twitt-2{
+    color: #0D98ED;
+    font-weight: 600;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    margin-top: 20px;
+}
+#seguidoresTendencia2{
+    color: #657786;
+}
+#twitt-3{
+    color: #0D98ED;
+    font-weight: 600;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    margin-top: 30px;
+}
+#seguidoresTendencia3{
+    color: #657786;
+}
+#twitt-4{
+    color: #0D98ED;
+    font-weight: 600;
+    position: absolute;
+    top: 45%;
+    margin-top: 40px;
+    left: 5%;
+}
+#seguidoresTendencia4{
+    color: #657786;
+}
+#twitt-5{
+    color: #0D98ED;
+    font-weight: 600;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    margin-top: 50px;
+}
+#seguidoresTendencia5{
+    color: #657786;
+}
+#twitt-6{
+    color: #0D98ED;
+    font-weight: 600;
+    position: absolute;
+    top: 65%;
+    margin-top: 60px;
+    left: 5%;
+}
+#seguidoresTendencia6{
+    color: #657786;
+}
+
+/*===========================================================
+				SONNIA 
+ ============================================================*/
 .contenedor-cajas{
-   margin-left: 500px;
+   margin-left: 450px;
+   margin-top: -340px;
+   position: relative;
+   
 }
 #caja1{
-	position:relative;
+	position: absolute;;
 	background-color: pink;
+	top: 0;
 	width: 500Px;
 	height: 645px;
-display: inline-block;
-border-radius: 10px;
+    /* display: inline-block; */
+     border-radius: 10px;
 
 /* border:2px 2px 2px 2px solid #E5E8E8; */
 }
-.caja2{
+/* .caja2{
 	background-color: skyblue;
 	width: 300px;
 	height: 600px;
 	display: inline-block;
 	position:absolute;
 	margin-left: 5px;
-}/*contenido caja1///IMG,input,camara*/
+} */
+/*contenido caja1///IMG,input,camara*/
 .caja-comentarios{
 	background-color: skyblue;
 	height: 70px;
 	width: auto;
 }
 .osochico{
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 	border-radius: 5px;
 	margin-left: 8px;
 	margin-top: 8px;
 }
 .contecomentario{
-	width: 400px;
-	height: 30px;
-  border-radius: 5px;
-	margin-top: auto;
+	width: 700px;
+	height: 15px;
+	position: absolute;
+    border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.contecomentario:focus{
+	border: 2px solid #0D98ED;
 }
 #camarita{
  color: blue;
  font-size: 25px;
+ margin-left: 250px;
+ position: absolute;
+ margin-top: 20px;
+ /* z-index: 10; */
 }
 /*///////////////*/
 /*/////div2/////img,iconexpan,texto*/
